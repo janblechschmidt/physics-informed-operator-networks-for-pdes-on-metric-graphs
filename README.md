@@ -5,6 +5,10 @@ and parameter identification**.
 
 Parts of the functions are based on the repository [https://github.com/PredictiveIntelligenceLab/Physics-informed-DeepONets].
 
+## Link to Paper
+
+The paper is available here [https://openreview.net/forum?id=oF1OPyMw1m]
+
 ## Abstract
 
 We develop a novel physics informed deep learning approach for solving nonlinear drift-diffusion equations on metric graphs.
