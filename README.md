@@ -3,8 +3,6 @@
 This repository accompanies the the ICML 2025 publication entitled **Physics-Informed DeepONets for drift-diffusion on metric graphs: simulation
 and parameter identification**.
 
-Parts of the functions are based on the repository [https://github.com/PredictiveIntelligenceLab/Physics-informed-DeepONets].
-
 ## Link to Paper
 
 The paper is available here [https://openreview.net/forum?id=oF1OPyMw1m]
@@ -58,3 +56,7 @@ The solution of inverse problems for the drift-diffusion on a metric graph is im
 In order to train a completely new model one has to start to implement a quantum graph example in `src/graph.py` and generate training data for inflow, inner and outflow edges, reps., using the script `01_Generate_Data.ipynb`.
 Using this data, new models have to be trained using `02_Learn_PI_DeepONet.ipynb` for all edge types.
 Afterwards, one can adapt `03_Simulation.ipynb` and `04_Inverse.ipynb` to solve the new quantum graph problem.
+
+## Credits
+
+Parts of the functions are based on the repository [https://github.com/PredictiveIntelligenceLab/Physics-informed-DeepONets].
